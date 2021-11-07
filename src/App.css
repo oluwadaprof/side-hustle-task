@@ -1,0 +1,233 @@
+    *,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .App {
+        object-fit: fill;
+        overflow-x: hidden;
+    }
+    
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .gmail-txt {
+        position: absolute;
+        left: 80rem;
+        top: 2rem;
+        height: 2rem;
+        width: 2rem;
+        font-weight: bold;
+    }
+    
+    .image-txt {
+        position: absolute;
+        left: 84rem;
+        top: 1.9rem;
+        height: 2rem;
+        width: 2rem;
+        font-weight: bold;
+    }
+    
+    .menu-icon {
+        position: absolute;
+        top: 2rem;
+        left: 89rem;
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+    
+    .avatar {
+        position: absolute;
+        left: 55rem;
+        top: -8rem;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+    }
+    /* main */
+    /* main {
+    align-content: center;
+} */
+    /* main */
+    
+    img {
+        margin-left: 38%;
+        margin-top: 10%;
+        width: 29rem;
+        height: 6rem;
+    }
+    
+    input {
+        margin-left: 31rem;
+        margin-top: 2rem;
+        width: 40rem;
+        height: 3rem;
+        border-radius: 17px;
+        border: 1px solid gray;
+        padding-left: 2.8rem;
+    }
+    
+    .search-icon {
+        position: relative;
+        left: -35rem;
+        top: -.25rem;
+    }
+    
+    svg {
+        position: relative;
+        top: .5rem;
+        left: -4rem;
+    }
+    
+    svg:focus {
+        outline: none;
+    }
+    
+    .google-btn {
+        position: relative;
+        top: 5rem;
+        left: -34rem;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+        background: #303134;
+        border-radius: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .lucky-btn {
+        position: relative;
+        top: 5rem;
+        left: -30rem;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+        background: #303134;
+        border-radius: 2px;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .g1-txt {
+        position: relative;
+        top: 7rem;
+        left: 35rem;
+    }
+    
+    .lang-link {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+    
+    .lang-link1 {
+        list-style: none;
+        position: relative;
+        top: 5.6rem;
+        left: 45rem;
+        color: blue;
+    }
+    
+    .lang-link2 {
+        list-style: none;
+        position: relative;
+        top: 5.6rem;
+        left: 25rem;
+        color: blue;
+    }
+    
+    .lang-link3 {
+        list-style: none;
+        position: relative;
+        top: 5.6rem;
+        left: 6.5rem;
+        color: blue;
+    }
+    
+    .lang-link4 {
+        list-style: none;
+        position: relative;
+        top: 5.6rem;
+        left: -15rem;
+        color: blue;
+    }
+    /* footer */
+    
+    footer {
+        margin-top: 15.8rem;
+        background: #212327;
+        height: 8rem;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    hr {
+        margin-top: 1rem;
+        border: .5px solid gray;
+    }
+    
+    .Nig-txt {
+        margin: 1.1rem;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .flex-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .first-section {
+        margin-top: .3rem;
+        width: 34rem;
+        display: grid;
+        grid-template-columns: .5fr .5fr .5fr .5fr;
+    }
+    
+    .first-section-txt1,
+    .first-section-txt2,
+    .first-section-txt3,
+    .first-section-txt4 {
+        margin-left: .8rem;
+        margin-top: .1rem;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .second-section-txt {
+        margin-top: .1rem;
+        margin-left: 10rem;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .third-section {
+        display: grid;
+        grid-template-columns: .5fr .5fr .5fr;
+    }
+    
+    .third-section-txt1 {
+        margin-left: 3rem;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .third-section-txt2 {
+        margin-left: 3rem;
+        color: white;
+        font-weight: lighter;
+    }
+    
+    .third-section-txt3 {
+        margin-left: .4rem;
+        margin-top: .1rem;
+        color: white;
+        font-weight: lighter;
+    }
