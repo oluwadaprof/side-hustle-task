@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { CgMenuGridO } from "react-icons/cg";
 import Avatar from '../assets/image avatar.jpg'
 
