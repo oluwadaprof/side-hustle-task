@@ -14,7 +14,7 @@ function Main (){
     return(
           
         <div>
-            {/* <img src={SideHustle} alt="" /> */}
+            
             {inputHandler ? <p className='text-handle'>{inputHandler}</p> : <img src={SideHustle} alt="" />}
             <input type="text" onChange={inputHandle}  />
           
